@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{ 
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+section#login{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #E58B1A, #D95B42) ;
+}
+
+h1{
+    color: white;
+    font-size: 3em;
+}
+
+form{
+    width: 90%;
+    max-width: 350px;
+}
+
+div.campo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px; 
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+.campo input{
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    
+}
+
+.campo input::placeholder{
+    color: rgb(116, 116, 116);
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+a{
+    display: block;
+    padding: 10px;
+}
+
+a#signup{
+    color: white;
+    font-weight: bold;
+}
+
+a#cant-access{
+    color: rgba(134, 0, 0, 0.792);
+}
+
+button{
+    width: 40%;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+}
