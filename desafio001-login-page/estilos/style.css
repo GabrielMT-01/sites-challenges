@@ -24,7 +24,8 @@ body, html{
 section#login{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #E58B1A, #D95B42) ;
+    background-image: linear-gradient(to top, #E58B1A, #D95B42) ;
+    
 }
 
 h1{
