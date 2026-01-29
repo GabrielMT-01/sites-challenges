@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0D1A2D;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #14273E;
+    width: 300px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+}
+
+.equilibrium-image{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 1.3em;
+    margin-left: 15px;
+}
+
+.first-p{
+    color: rgb(241, 235, 235);
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.eth{
+    display: flex;
+    gap: 5px;
+    margin-left: 15px;
+    color: #00FFF8;
+    font-weight: bold;
+    
+}
+
+.days-left{
+    display: flex;
+    gap: 4px;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: rgb(205, 202, 202);
+    font-weight: bold;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+    border: 0;
+    height: 1px;
+    background-color: #2e405a;
+    
+}
+
+footer  img {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(205, 202, 202);
+    
+    margin: 15px 0px 35px 15px;
+}
+
+strong{
+    color: white;
+}

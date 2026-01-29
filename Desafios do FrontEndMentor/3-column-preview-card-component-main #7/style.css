@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+main{
+    width: 80vw;
+    
+}
+
+section{
+    padding: 25px;
+    color: white;
+}
+
+section.sedans{
+    background-color: #E28525;
+    
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.793);
+    margin-bottom: 20px;
+}
+
+h2, p{
+    margin: 20px 0px;
+}
+
+section.suvs{
+    background-color: #016972;
+}
+
+section.luxury{
+    background-color: #003F3E;
+}
+
+.button{
+    background-color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 25px;    
+    border: none;
+    font-weight: bold;
+}
+
+#sedan-button{
+    color: #E28525;   
+}
+
+#suv-button{
+    color: #016972;
+}
+
+#luxury-button{
+    color: #003F3E;
+}
